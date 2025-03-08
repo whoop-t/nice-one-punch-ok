@@ -1,4 +1,4 @@
-name: "zmk-shield-nice!view-shield-base"
+name: "zmk-shield-nice!view-one-punch-ok"
 build:
   settings:
     board_root: .

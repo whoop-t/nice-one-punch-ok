@@ -1,6 +1,6 @@
 file_format: "1"
-id: nice-shield-base
-name: nice!view_shield_base
+id: nice-one-punch-ok
+name: nice!view_one_punch_ok
 type: shield
 url: https://nicekeyboards.com/nice-view
 requires: [nice_view_header]
