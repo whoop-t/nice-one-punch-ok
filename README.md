@@ -71,7 +71,42 @@ name: "zmk-shield-nice!view-your-repo"
 
 > [!NOTE]
 > If you want animations, you can skip to the animation section
-> This section is just for still animations
+> This section is just for still images
 
 > [!NOTE]
-> This section also assumes you already have an image created from the previous step and its the proper height and width
+> This section also assumes you already have an image created from the previous step
+
+### Rotate your image
+
+This is a horizontal display so you need to rotate the image 90 degrees to the right
+
+I just use [iloveimg](https://www.iloveimg.com/rotate-image), but feel free to use anything. Just make sure you are rotating it 90 degrees to the right
+
+### Image to code conversion
+
+Take your 1-bit art that your created or found and upload it to
+[image2cpp](https://javl.github.io/image2cpp/)
+
+The only option you need to change is `Code output format`, make sure its set to `Plain bytes`
+
+Then click `Generate Code`
+You will see the code, copy everything in the textfield
+
+## Paste to code in repo
+
+Depending on the image you are setting, you will need to update on of the following files:
+1. `assests/left_image.c` (for your left half)
+2. `assests/right_image.c` (for your right half)
+
+You should see bytes already there, as well as a comments in the code above and below the bytes
+Replace the bytes with your bytes from the conversion
+```c
+  // REPLACE THESE BYTES
+  ...
+  ...
+  // END
+```
+
+Save the file
+
+Thats it! Repeat for your other side if needed
