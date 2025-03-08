@@ -3,9 +3,10 @@
 #include "left_animation.h"
 
 LV_IMG_DECLARE(left_image);
+LV_IMG_DECLARE(left_image_2);
 
 const lv_img_dsc_t *anim_imgs[] = {
-    &left_image,
+    &left_image, &left_image_2,
 };
 
 void draw_left_animation(lv_obj_t *canvas) {
@@ -13,7 +14,7 @@ void draw_left_animation(lv_obj_t *canvas) {
     lv_obj_t *art = lv_animimg_create(canvas);
     lv_obj_center(art);
 
-    lv_animimg_set_src(art, (const void **)anim_imgs, 1);
+    lv_animimg_set_src(art, (const void **)anim_imgs, 2);
     lv_animimg_set_duration(art, CONFIG_NICE_LEFT_ANIMATION_MS);
     lv_animimg_set_repeat_count(art, LV_ANIM_REPEAT_INFINITE);
     lv_animimg_start(art);
