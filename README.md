@@ -49,7 +49,7 @@ Modify the behavior of this shield by adjusting these options in your personal c
 | Option                                     | Type | Description                                                                                                                                                                                                                                                       | Default |
 | ------------------------------------------ | ---- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- |
 | `CONFIG_NICE_LEFT_ANIMATION`           | bool | If you find the animation distracting (or want to save on battery usage), you can turn it off by setting this option to `n`. This will use the last frame where fry is full glare.                                           | y       |
-| `CONFIG_NICE_LEFT_ANIMATION_MS`        | int  | Alternatively, you can slow down the animation. A high value, such as 96000, slows the animation considerably, showing the next frame every couple of seconds. The animation consists of 16 frames, and the default value of 960 milliseconds. | 960     |
+| `CONFIG_NICE_LEFT_ANIMATION_MS`        | int  | Alternatively, you can slow down the animation. A high value, such as 96000, slows the animation considerably, showing the next frame every couple of seconds. The animation consists of 5 frames, and the default value of 960 milliseconds. | 960     |
 
 ## Acknowledgements
 ### Base Repo (for anyone to get started with their own)
