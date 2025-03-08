@@ -55,7 +55,7 @@ Modify the behavior of this shield by adjusting these options in your personal c
 ### Base Repo (for anyone to get started with their own)
 https://github.com/whoop-t/nice-shield-base
 
-## Inspiration
+### Inspiration
 https://github.com/M165437/nice-view-gem
 
 ### Making the art
