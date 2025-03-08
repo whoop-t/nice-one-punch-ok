@@ -53,3 +53,25 @@ In `shields/nice_shield_base/nice_shield_base.zmk.yml` rename these to your repo
 id: nice-shield-base
 name: nice!view_shield_base
 ```
+
+In `zephyr/module.yml` rename this to your repo name:
+```yaml
+name: "zmk-shield-nice!view-your-repo"
+```
+> [!NOTE]
+> I dont think this one matters, but I like to update it
+
+## Create 1-bit art
+
+> [!IMPORTANT]
+> WIP
+> TODO Add guide to create the pixel art
+
+## Add images
+
+> [!NOTE]
+> If you want animations, you can skip to the animation section
+> This section is just for still animations
+
+> [!NOTE]
+> This section also assumes you already have an image created from the previous step and its the proper height and width
