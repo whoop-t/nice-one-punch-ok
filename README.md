@@ -5,7 +5,14 @@
 
 ## Clone the repo into your own folder
 
-1. Clone the base repo
+1. Clone the base repo or fork the repo
+
+### Fork
+
+Fork repo through github
+Then clone the repo to your local computer to start work
+
+### Clone the repo(alternative to forking)
 ```
 git clone git@github.com:whoop-t/nice-shield-base.git your-repo-name
 ```
