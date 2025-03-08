@@ -110,3 +110,12 @@ Replace the bytes with your bytes from the conversion
 Save the file
 
 Thats it! Repeat for your other side if needed
+
+## Push the code to you github remote repo
+
+Once you have done all the changes you want, push the code to your remote github repo
+```
+git add .
+git commit -m "Your commit message"
+git push
+```
