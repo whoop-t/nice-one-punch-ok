@@ -37,11 +37,11 @@ config NICE_LEFT_ANIMATION
 
 config NICE_RIGHT_ANIMATION_MS
     int "Animation length in milliseconds"
-    default 2400 
+    default 960 
 
 config NICE_LEFT_ANIMATION_MS
     int "Animation length in milliseconds"
-    default 2400 
+    default 960 
 
 config NICE_VIEW_WIDGET_STATUS
     select LV_USE_LABEL
